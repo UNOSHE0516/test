@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" tylie="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+</head>
+<body>
+
+    <img class="book" src="diblog_logo.jpg">
+
+    <header>
+        <ul class="hed">
+            <li class="top">トップ</li>
+            <li>プロフフィール</li>
+            <li>D.I.Blog について</li>
+            <li>登録フォーム</li>
+            <li>問い合わせ</li>
+            <li class="end">その他</li>
+        </ul>
+
+    </header>
+    
+<main>
+        <div class="contents">
+            <div class="left">
+                <h2>プログラミングに役立つ書籍</h2>
+                <div class="day">2017年1月15日</div>
+
+
+                <script>
+                    $(document).ready(function(){
+                        $('.abc').bxSlider({
+                            auto: true,
+                            mode: 'horizontal',
+                            speed: 2000,
+                            slideWidth: 1100,
+                            controls: false
+                        });
+                    });
+                </script>
+                    <div class="abc">
+                        <div><img class="one_pictures" src="jQuery_image1.jpg"></div>
+                        <div><img class="one_pictures" src="jQuery_image2.jpg"></div>
+                        <div><img class="one_pictures" src="jQuery_image3.jpg"></div>
+                        
+                    </div>
+
+
+
+
+
+                <!-- <img class="one_pictures" src="bookstore.jpg"> -->
+                <div class="text">D.I.BlogはD.I.Worksが提供する演習課題です。</div>
+                <div class="text2">記事中身</div>
+
+
+                <div class="back">
+
+                    <div class="eria_top">
+                        <div class="category">
+                            <img class="pictures" src="pic1.jpg">
+                            <div class="explanation">ドメイン取得方法</div>
+                        </div>
+
+                        <div class="category">
+                            <img class="pictures" src="pic2.jpg">
+                            <div class="explanation">快適な職場環境</div>
+                        </div>
+                        
+                        <div class="category">
+                            <img class="pictures" src="pic3.jpg">
+                            <div class="explanation"><strong>Linux</strong>の基礎</div>
+                        </div>
+
+                        <div class="category">
+                            <img class="pictures" src="pic4.jpg">
+                            <div class="explanation">マーケティング入門</div>
+                        </div>
+
+                    </div>
+
+                    <div class="eria_under">
+                        <div class="category">
+                            <img class="pictures" src="pic5.jpg">
+                            <div class="explanation">アクティブラーニング</div>
+                        </div>
+
+                        <div class="category">
+                            <img class="pictures" src="pic6.jpg">
+                            <div class="explanation">CSSの効率的な勉強方法</div>
+                        </div>
+
+                        <div class="category">
+                            <img class="pictures" src="pic7.jpg">
+                            <div class="explanation">リーダブルコードとは</div>
+                        </div>
+
+                        <div class="category">
+                            <img class="pictures" src="pic8.jpg">
+                            <div class="explanation"><strong>HTML5</strong>の可能性</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            
+            <div class="right">
+                <div class="right_sub">
+                        <div class="subtitle">人気の記事</div>
+                        <ul class="red">
+                            <li>PHPおすすめ本</li>
+                            <li>PHP MyAdminの使い方</li>
+                            <li>いま人気のエディタ Tops</li>
+                            <li>HTMLの基礎</li>
+                        </ul>
+
+                        <div class="subtitle">オススメリンク</div>
+                        <ul class="red">
+                            <li>ﾃﾞｨｰｱｲﾜｰｸｽ株式会社</li>
+                            <li>XAMPPのダウンロード</li>
+                            <li>Eclipseのダウンロード</li>
+                            <li>BraKetsのダウンロード</li>
+                        </ul>
+
+
+                        <div class="subtitle">カテゴリ</div>
+                        <ul class="red">
+                            <li>HTML</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+
+                </div>
+
+
+
+
+            </div>
+
+            
+           
+
+        </div>
+</main>
+
+
+
+    
+
+
+
+
+    <footer>
+            Copyrigth D.I.works|D.I.blog is the one which provides A to Z about programming
+    </footer>
+</body>
+</html>
